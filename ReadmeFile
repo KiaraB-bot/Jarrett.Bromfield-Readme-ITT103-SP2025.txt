@@ -1,0 +1,78 @@
+Point of Sale System
+
+Authors:[Kiara Bromfield][Jade Jarrett]
+Date:[March 25,2025]
+Course Name:[Programming Technique ITT103]
+GitHub URL:
+
+Project Overview
+This project is a Python application developed using a menu interface which simulates a Point of Sale (POS) System. This system grants cashiers the ability to manage product stock, perform sales, issue receipts, and apply discounts. The application was created using object oriented programming concepts and design alongside modular programming and exception cases.
+
+
+Features
+1. Product Management
+
+
+*   Predefined product catalog stored as a dictionary or a list containing product names, prices, and stock quantities.
+*   Validates stock availability before allowing items to be added to the cart.
+
+
+
+
+2. Shopping Cart Operations
+
+*   Cashiers can add items to the cart by entering the product name and quantity.
+
+*   Ability to remove items from the cart.
+*   Option to view cart contents, displaying a list of items, their quantities, and total price.
+
+
+
+3. Checkout & Payment Processing
+
+*   Calculates the subtotal of all cart items.
+*   Applies a 10% sales tax on the subtotal.
+*   Displays the total amount due.
+*   Allows the cashier to enter the amount received from the customer and calculates change.
+*   Ensures that the system validates payment(customers cannot pay less than the total amount due).
+
+
+
+
+4. Receipt Generation
+- Generates a formatted receipt displaying:
+  - Store name and header.
+  - An itemized list of purchased items with quantity, unit price, and total price.
+  - Subtotal, sales tax, and total amount due.
+  - Amount paid by the customer and change returned.
+  - A "Thank You" message at the end.
+
+
+
+5. Additional Functionalities
+- Implements a discount system (e.g., 5% discount for total bills over $5000).
+- Supports multiple transactions within a single session.
+- Displays low-stock alerts if product quantity falls below 5.
+
+Technical Requirements
+1. We used functions and methods to structure the program efficiently.
+2. We implemented lists and dictionaries for product management and shopping cart storage.
+3. Used loops to facilitate cashier interactions until the transaction is complete.
+4. Applied input validation to prevent incorrect inputs (e.g., non-numeric quantities).
+5. Formatted the receipt output for clear readability.
+
+How to Run the Program
+1. Download the Python script.
+2. Open the script in a Python-supported environment like Pycharm, Google Colab or Jupyter Notebook.
+3. Run the script and follow the on-screen instructions to interact with the POS system.
+
+Assumptions and Limitations
+- The program assumes that product data is predefined and doesn't allow real-time updates.
+- The discount functionality is only applied when total purchases exceed $5000.
+- The system does not support barcode scanning or integration with external payment gateways.
+
+
+
+
+
+
